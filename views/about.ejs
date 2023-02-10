@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'/>
+  <link rel='stylesheet' href='@fortawesome/fontawesome-free/css/all.min.css' />
+  <link rel='stylesheet' href='stylesheets/home.css' />
+  <link rel='icon' href='images/favicon.png'/>
+  </head>
+  <body>
+
+   
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">myPortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link "  href="/Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="/Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="/Contactme">Contact Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/Login">Login <i class="fas fa-sign-in-alt"></i></a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+    <section class="page-title-alt bg-primary position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-white font-tertiary">About Me</h1>
+            </div>
+          </div>
+        </div>
+
+    <section class="section pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <p>A critical thinker, studying software engineering technology at Centennial College; self-disciplined and
+                self-driven to learn new technologies and skills.</p>
+              <p>Strong passion for Software development and learning new programming skills, Role model is the legend Bill Gate, 
+                  hope one day to meet him .</p>
+              <p>Favorite quote - "Don't compare yourself with anyone in this world, if you do so you are hurting yourself"
+                  - Bill Gates.</p>
+              <p> <a href="pdf/My_Resume.pdf" class="btn btn-transparent">Click to View Resume</a></p>
+            </div>
+            <div class="col-md-4 text-center drag-lg-top">
+              <div class="shadow-down mb-4">
+                <img src="images/pfp2.jpg" alt="author" class="img-fluid w-100 rounded-lg border-thick border-white">
+              </div>
+              <h4>Mudiaga Otojareri Chukwudi "BOBO" Raphael</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-title">Life Facts</h2>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card hover-shadow shadow">
+                <div class="card-body text-center px-4 py-5">
+                <i class="fas fa-baby"></i>
+                  <h4 class="mb-4">Birth</h4>
+                  <p>9/10/2002, Born in Lagos, Nigeria  .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card active-bg-primary hover-shadow shadow">
+                <div class="card-body text-center px-4 py-5">
+                <i class="fad fa-squirrel"></i>
+                  <h4 class="mb-4">Musophobia</h4>
+                  <p>Fear of Rodents.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card hover-shadow shadow">
+                <div class="card-body text-center px-4 py-5">
+                    <i class="fas fa-futbol"></i>
+                  <h4 class="mb-4">Soccer Fanatic</h4>
+                  <p>Big time fan of soccer and ChelseaFC.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/public/javascripts/home.js"></script>
+</body>
+<footer class="bg-dark footer-section">
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="text-light">Email</h5>
+            <p class="text-white paragraph-lg font-secondary">otomudiaga@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Phone</h5>
+            <p class="text-white paragraph-lg font-secondary">(647) 619 9502</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Address</h5>
+            <p class="text-white paragraph-lg font-secondary">937 Progress Avenue, Scarborough ON, Canada</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top text-center border-dark py-5">
+      <p class="mb-0 text-light">Copyright &copy;<script>
+          var CurrentYear = new Date().getFullYear()
+          document.write(CurrentYear)
+        </script> Designed &amp; Developed by <a class="text-white-50" href="Mudiaga">Mudiaga 301113658</a></p>
+    </div>
+  </footer>
+</html>
